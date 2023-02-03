@@ -1,0 +1,47 @@
+{
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : -0.209808,
+               "lng" : -78.492148
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -0.2083593701072778,
+                  "lng" : -78.49064332010728
+               },
+               "southwest" : {
+                  "lat" : -0.2110590298927222,
+                  "lng" : -78.49334297989273
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+         "icon_background_color" : "#13B5C7",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/museum_pinlet",
+         "name" : "Museo Jacinto Jijón y Caamaño",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 678,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102108547875525615898\"\u003eMuseo Jacinto Jijón y Caamaño\u003c/a\u003e"
+               ],
+               "photo_reference" : "Aap_uEDckdvgFuFnAotpyOiTymjwrLCe4DulDRKWxf8usq7efX108yfdzCrHi7z-IyUByw86otZL-xI3NFHJ8W3O-xUkv6g7YG87YysIFKu-wQThpp_ARCSmwmFmeO-NG3OdLU_jY7MZeOcZ7111PhSAEVX5ntqEr9Ez7VfM4dgfCMSACpDX",
+               "width" : 1024
+            }
+         ],
+         "place_id" : "ChIJe4sJ-RCa1ZERJ02VZbxdYts",
+         "plus_code" : {
+            "compound_code" : "QGR5+34 Quito",
+            "global_code" : "67F3QGR5+34"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJe4sJ-RCa1ZERJ02VZbxdYts",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "tourist_attraction", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 33,
+         "vicinity" : "Avenida 12 de Octubre 1076 y Vicente Ramón Roca. Edificio del Centro Cultural 2do. piso., Quito"
+      },

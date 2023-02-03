@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="156dp"
+        android:layout_height="27dp"
+        android:text="@string/titulo"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:text="@string/enviar"
+        app:layout_constraintBottom_toTopOf="@+id/btn_salir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="200dp"
+        android:layout_height="22dp"
+        android:text="@string/subtitulo"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <CheckBox
+        android:id="@+id/cbestadios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/estadios"
+        app:layout_constraintEnd_toEndOf="@+id/txtTitulo"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toStartOf="@+id/txtTitulo"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitulo" />
+
+    <CheckBox
+        android:id="@+id/cbcementerio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cementerios"
+        app:layout_constraintBottom_toBottomOf="@+id/cbestadios"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.602"
+        app:layout_constraintStart_toEndOf="@+id/cbestadios" />
+
+    <CheckBox
+        android:id="@+id/cbmuseo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/museos"
+        app:layout_constraintBottom_toBottomOf="@+id/cbestadios"
+        app:layout_constraintEnd_toStartOf="@+id/cbestadios"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/cbparques"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/parques"
+        app:layout_constraintEnd_toStartOf="@+id/cbiglesias"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cbmuseo" />
+
+    <CheckBox
+        android:id="@+id/cbiglesias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/iglesias"
+        app:layout_constraintEnd_toEndOf="@+id/cbestadios"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/cbestadios"
+        app:layout_constraintTop_toBottomOf="@+id/cbestadios" />
+
+    <CheckBox
+        android:id="@+id/cbexposiciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/arte"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/cbcementerio"
+        app:layout_constraintTop_toBottomOf="@+id/cbcementerio" />
+
+    <CheckBox
+        android:id="@+id/cbtemplos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/templos"
+        app:layout_constraintEnd_toStartOf="@+id/cbzoo"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cbparques" />
+
+    <CheckBox
+        android:id="@+id/cbzoo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/zoologicos"
+        app:layout_constraintEnd_toEndOf="@+id/cbiglesias"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/cbiglesias"
+        app:layout_constraintTop_toBottomOf="@+id/cbiglesias" />
+
+    <CheckBox
+        android:id="@+id/cbdiversiones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/diversiones"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/cbexposiciones"
+        app:layout_constraintTop_toBottomOf="@+id/cbexposiciones" />
+
+    <RadioGroup
+        android:id="@+id/radioGrupo"
+        android:layout_width="197dp"
+        android:layout_height="200dp"
+        android:baselineAligned="false"
+        app:layout_constraintBottom_toTopOf="@+id/btnEnviar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.179">
+
+        <RadioButton
+            android:id="@+id/radioButtonNorte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:selectAllOnFocus="true"
+            android:text="@string/norte" />
+
+        <RadioButton
+            android:id="@+id/radioButtonCentro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/centro2" />
+
+        <RadioButton
+            android:id="@+id/radioButtonSur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sur" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_salir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:text="@string/salir"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="123dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/sector"
+        app:layout_constraintEnd_toEndOf="@+id/cbdiversiones"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="@+id/cbtemplos"
+        app:layout_constraintTop_toBottomOf="@+id/cbzoo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

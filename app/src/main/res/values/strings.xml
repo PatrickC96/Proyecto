@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Proyecto</string>
+    <string name="enviar">Enviar</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <string name="titulo">Sure Tourist Trip!</string>
+    <string name="subtitulo">Sitios que te gustaría visitar</string>
+    <string name="sector">Sector de la Ciudad</string>
+
+
+    <string name="museos">Museos</string>
+    <string name="parques">Parques</string>
+    <string name="templos">Tiendas</string>
+    <string name="estadios">Estadios</string>
+    <string name="iglesias">Iglesias</string>
+    <string name="zoologicos">Zoológicos</string>
+    <string name="cementerios">Cementerios</string>
+    <string name="arte">Bar</string>
+    <string name="diversiones">Café</string>
+
+    <string name="norte">Norte</string>
+    <string name="centro2">Centro</string>
+    <string name="sur">Sur</string>
+
+    <string name="email">Email</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="registrar">Registrar</string>
+    <string name="acceder">Acceder</string>
+
+    <string name="ir">IR</string>
+
+    <string name="salir">SALIR</string>
+    <string name="todo">TODO</string>
+    <string name="userlogin">userlogin</string>
+</resources>
